@@ -25,3 +25,18 @@ Accept UPI payments straight into your personal or merchant VPA (`GPay`, `PhoneP
 
 ```bash
 npm install ez-upi-flow
+
+# @spixter/ez-upi-flow
+
+[![npm version](https://img.shields.io/npm/v/%40spixter/ez-upi-flow?style=flat-square&color=059669)](https://www.npmjs.com/package/@spixter/ez-upi-flow)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
+
+Lightweight, zero-dependency TypeScript SDK for UPI intent & dynamic QR payment flow.
+
+- **NPM Package:** https://www.npmjs.com/package/@spixter/ez-upi-flow
+- **GitHub Repo:** https://github.com/speezyxspeedy/ez-upi-flow
+
+## Install
+
+```bash
+npm i @spixter/ez-upi-flow
