@@ -1,0 +1,59 @@
+{
+    "name":  "@spixter/ez-upi-flow",
+    "version":  "1.0.3",
+    "description":  "Zero-KYC direct UPI intent \u0026 dynamic QR payment flow with 3-minute strict TTL and back-trap protection.",
+    "main":  "./dist/index.js",
+    "types":  "./dist/index.d.ts",
+    "exports":  {
+                    ".":  {
+                              "types":  "./dist/index.d.ts",
+                              "import":  "./dist/index.js"
+                          },
+                    "./server":  {
+                                     "types":  "./dist/server.d.ts",
+                                     "import":  "./dist/server.js"
+                                 },
+                    "./client":  {
+                                     "types":  "./dist/client.d.ts",
+                                     "import":  "./dist/client.js"
+                                 }
+                },
+    "files":  [
+                  "dist",
+                  "README.md",
+                  "LICENSE"
+              ],
+    "scripts":  {
+                    "build":  "rimraf dist \u0026\u0026 tsc",
+                    "prepublishOnly":  "npm run build"
+                },
+    "keywords":  [
+                     "upi",
+                     "payments",
+                     "gpay",
+                     "phonepe",
+                     "paytm",
+                     "zero-kyc",
+                     "qr-code",
+                     "intent-flow"
+                 ],
+    "author":  "Shubh Gupta",
+    "license":  "MIT",
+    "dependencies":  {
+                         "qrcode":  "^1.5.4"
+                     },
+    "devDependencies":  {
+                            "@types/node":  "^22.0.0",
+                            "@types/qrcode":  "^1.5.5",
+                            "rimraf":  "^6.0.0",
+                            "typescript":  "^5.6.0"
+                        },
+    "repository":  {
+                       "type":  "git",
+                       "url":  "git+https://github.com/speezyxspeedy/ez-upi-flow.git"
+                   },
+    "homepage":  "https://github.com/speezyxspeedy/ez-upi-flow#readme",
+    "bugs":  {
+                 "url":  "https://github.com/speezyxspeedy/ez-upi-flow/issues"
+             }
+}
